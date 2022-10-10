@@ -1,0 +1,31 @@
+@media ( min-width: 28em ) 
+{
+	.ui-listview > li 
+	{
+		display: inline-block;
+	}
+	.ui-listview > .ui-li-static
+	{
+	display: inline-block;
+	}
+	.ui-listview li {
+		display: inline-block;
+		vertical-align:top;
+		min-width:10em;
+		max-width:10em;
+		min-height:1.5em; 
+		margin:.5625em 1.2%;
+		text-overflow: ellipsis;
+		overflow:hidden;
+		background-color:inherit;
+	}
+	.ui-listview li:hover span {
+		border-color:transparent;
+		border-width:0px;
+	}
+	.ui-listview li:hover {
+		text-overflow:inherit;
+		overflow:visible;
+		z-index:2147483647;
+	}
+}
